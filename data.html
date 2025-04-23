@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Exploration</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="data.html">Data</a></li>
+            <li><a href="visualizations.html">Visualizations</a></li>
+            <li><a href="findings.html">Findings</a></li>
+            <li><a href="about.html">About</a></li>
+        </ul>
+    </nav>
+
+
+    <!-- Main Content -->
+    <main>
+        <section class="data-grid">
+            <div class="data-item">
+                <img src="moreimages/BALENCIAGA-FALL_2020_READY_TO_WEAR-37 copy.jpg" alt="Balenciaga Fall 2020">
+            </div>
+            <div class="data-item">
+                <img src="moreimages/CHANEL-FALL_2007_READY_TO_WEAR-5 copy.jpg" alt="Chanel Fall 2007">
+            </div>
+            <div class="data-item">
+                <img src="moreimages/GUCCI-SPRING_2019_READY_TO_WEAR-36 copy.jpg" alt="Gucci Spring 2019">
+            </div>
+            <div class="data-item">
+                <img src="moreimages/CHRISTIAN_DIOR-FALL_2009_READY_TO_WEAR-43 copy.jpg" alt="Dior Fall 2009">
+            </div>
+            <div class="data-item">
+                <img src="moreimages/VALENTINO-SPRING_2004_READY_TO_WEAR-40 copy.jpg" alt="Valentino Spring 2004">
+            </div>
+            <div class="data-item">
+                <img src="moreimages/CHRISTIAN_DIOR-SPRING_2022_READY_TO_WEAR-37 copy.jpg" alt="Dior Spring 2022">
+            </div>
+            <div class="data-item">
+                <img src="moreimages/PRADA-SPRING_2014_READY_TO_WEAR-13 copy.jpg" alt="Prada Spring 2014">
+            </div>
+            <div class="data-item">
+                <img src="moreimages/RALPH_LAUREN-FALL_2022_READY_TO_WEAR-20 copy.jpg" alt="Ralph Lauren Fall 2022">
+            </div>
+            <div class="data-item">
+                <img src="moreimages/CHANEL-FALL_2014_READY_TO_WEAR-30 copy.jpg" alt="Chanel Fall 2014">
+            </div>
+            <div class="data-item">
+                <img src="moreimages/VALENTINO-FALL_2007_READY_TO_WEAR-33 copy.jpg" alt="Valentino Fall 2007">
+            </div>
+            <div class="data-item">
+                <img src="moreimages/CHRISTIAN_DIOR-FALL_2004_READY_TO_WEAR-24 copy.jpg" alt="Dior Fall 2004">
+            </div>
+            <div class="data-item">
+                <img src="moreimages/RALPH_LAUREN-FALL_2009_READY_TO_WEAR-5 copy.jpg" alt="Ralph Lauren Fall 2009">
+            </div>
+            <div class="data-item">
+                <img src="moreimages/BALENCIAGA-FALL_2019_READY_TO_WEAR-64 copy.jpg" alt="Balenciaga Fall 2019">
+            </div>
+            <div class="data-item">
+                <img src="moreimages/GUCCI-SPRING_2020_READY_TO_WEAR-2 copy.jpg" alt="Gucci Spring 2020">
+            </div>
+            <div class="data-item">
+                <img src="moreimages/PRADA-FALL_2022_READY_TO_WEAR-25 copy.jpg" alt="Prada Fall 2022">
+            </div>
+        </section>
+        <h2 class="centered-heading">5,977 looks</h2>
+        <h2 class="centered-heading">7 Brands</h2>
+        <h2 class="centered-heading">7 Years</h2>
+        <section class="brand-row">
+            <div class="brand-item">
+                <img src="evenmoreimages/VALENTINO-FALL_2004_READY_TO_WEAR-53 copy.jpg" alt="Valentino">
+                <div class="overlay">2004</div>
+            </div>
+            <div class="brand-item">
+                <img src="evenmoreimages/RALPH_LAUREN-SPRING_2007_READY_TO_WEAR-51 copy.jpg" alt="Ralph Lauren">
+                <div class="overlay">2007</div>
+            </div>
+            <div class="brand-item">
+                <img src="evenmoreimages/PRADA-SPRING_2009_READY_TO_WEAR-36 copy.jpg" alt="Prada">
+                <div class="overlay">2009</div>
+            </div>
+            <div class="brand-item">
+                <img src="evenmoreimages/RALPH_LAUREN-SPRING_2014_READY_TO_WEAR-26 copy.jpg" alt="Ralph Lauren">
+                <div class="overlay">2014</div>
+            </div>
+            <div class="brand-item">
+                <img src="evenmoreimages/GUCCI-FALL_2019_READY_TO_WEAR-66 copy.jpg" alt="Gucci">
+                <div class="overlay">2019</div>
+            </div>
+            <div class="brand-item">
+                <img src="evenmoreimages/CHRISTIAN_DIOR-FALL_2020_READY_TO_WEAR-75 copy.jpg" alt="Dior">
+                <div class="overlay">2020</div>
+            </div>
+            <div class="brand-item">
+                <img src="evenmoreimages/CHANEL-SPRING_2022_READY_TO_WEAR-58 copy.jpg" alt="Chanel">
+                <div class="overlay">2022</div>
+            </div>
+        </section>
+        <section class="data-collection">
+            <div class="data-collection-container">
+                <p>
+                    To explore how <span class="highlight-red">luxury fashion brands</span> respond to economic conditions through their use of color, I began by building a comprehensive dataset of runway images sourced from 
+                    <a href="https://www.vogue.com/fashion-shows" target="_blank" class="brand-red" ><strong>Vogue Runway</strong></a>, 
+                    the leading archive for fashion collections. Using a combination of manual selection and automated scraping tools like a Runway Downloader, I efficiently gathered complete collections across multiple years. To ensure a full representation of each fashion year, I included both Spring/Summer and Fall/Winter collections.  
+                </p>
+                <p>
+                    I selected seven iconic luxury brands for this analysis: 
+                    <span class="brand-red">Valentino</span>, 
+                    <span class="brand-red">Gucci</span>, 
+                    <span class="brand-red">Prada</span>, 
+                    <span class="brand-red">Chanel</span>, 
+                    <span class="brand-red">Dior</span>, 
+                    <span class="brand-red">Balenciaga</span>, and 
+                    <span class="brand-red">Ralph Lauren</span>. 
+                    These houses were chosen for their consistent presence on 
+                    <strong>Vogue Runway</strong>,
+                    their global influence, and their role as trendsetters within the industry.Together, they represent a balance between European and American luxury fashion, making them ideal candidates for studying how design choices reflect broader cultural and economic shifts.
+                </p>
+                <p>
+                    The timeframe focuses on seven years capturing both economic downturns and periods of stability. Including the 2008 financial crisis, the 2020 COVID-19 recession, and growth years like 2014 and 2019. This balance allowed me to test the hypothesis that luxury brands increase their use of colors like <span class="highlight-red">red</span> during challenging economic times to evoke urgency and desire, using color psychology to sustain consumer engagement.
+                </p>
+                <p>
+                    For color extraction and data creation many iterations had to be done. Early methods using Python’s Pillow library were too simplistic, often capturing background elements and overrepresenting dark tones. To improve accuracy, I combined AI-powered background removal (rembg) with K-Means clustering (scikit-learn, OpenCV) to isolate garments and identify dominant colors, even in complex patterns. Finally, I mapped these colors to their closest CSS3 names and grouped them into broader categories for effective analysis.
+                </p>
+            </div>
+        </section>
+        <h2 class="centered-heading">Measuring the Economy</h2>
+        <section class="economy-description">
+            <div class="data-collection-container">
+                <p>
+                    To understand how economic conditions might influence color choices in luxury fashion, I selected two key economic indicators: 
+                    <a href="https://data.worldbank.org/indicator/NY.GDP.MKTP.KD.ZG" target="_blank" class="highlight-link"><strong>GDP growth</strong></a> 
+                    and the 
+                    <a href="https://fred.stlouisfed.org/series/CSCICP03USM665S" target="_blank" class="highlight-link"><strong>Consumer Confidence Index (CCI)</strong></a>. 
+                    GDP growth reflects the overall health and stability of the economy, signaling periods of expansion or recession critical moments when brands may adjust their strategies to maintain desirability. 
+                    The CCI captures how consumers feel about their financial security and future spending, which is especially relevant for discretionary purchases like luxury goods. 
+                    Together, these indicators provide both a macroeconomic view and insight into consumer sentiment. 
+                </p>      
+                <div class="databutton-container">
+                    <a href="visualizations.html" class="explore-button">Explore Visualizations</a>
+                </div>                      
+            </div>
+        </section>
+        <section class="data-grid">
+            <div class="data-item">
+                <img src="evenmoreimages/BALENCIAGA-FALL_2019_READY_TO_WEAR-42 copy.jpg" alt="Balenciaga Fall 2019">
+            </div>
+            <div class="data-item">
+                <img src="evenmoreimages/CHANEL-SPRING_2004_READY_TO_WEAR-35 copy.jpg" alt="Chanel Spring 2004">
+            </div>
+            <div class="data-item">
+                <img src="evenmoreimages/GUCCI-SPRING_2009_READY_TO_WEAR-40 copy.jpg" alt="Gucci Spring 2009">
+            </div>
+            <div class="data-item">
+                <img src="evenmoreimages/CHRISTIAN_DIOR-FALL_2014_READY_TO_WEAR-20 copy.jpg" alt="Dior Fall 2014">
+            </div>
+            <div class="data-item">
+                <img src="evenmoreimages/VALENTINO-FALL_2022_READY_TO_WEAR-4 copy.jpg" alt="Valentino Fall 2022">
+            </div>
+            <div class="data-item">
+                <img src="evenmoreimages/PRADA-SPRING_2020_READY_TO_WEAR-45 copy.jpg" alt="Prada Spring 2020">
+            </div>
+            <div class="data-item">
+                <img src="evenmoreimages/RALPH_LAUREN-FALL_2007_READY_TO_WEAR-11 copy.jpg" alt="Ralph Lauren Fall 2007">
+            </div>
+            <div class="data-item">
+                <img src="evenmoreimages/CHRISTIAN_DIOR-SPRING_2014_READY_TO_WEAR-17 copy.jpg" alt="Dior Spring 2014">
+            </div>
+            <div class="data-item">
+                <img src="evenmoreimages/GUCCI-FALL_2007_READY_TO_WEAR-21 copy.jpg" alt="Gucci Fall 2007">
+            </div>
+            <div class="data-item">
+                <img src="evenmoreimages/RALPH_LAUREN-SPRING_2014_READY_TO_WEAR-36 copy.jpg" alt="Ralph Lauren Spring 2014">
+            </div>
+            <div class="data-item">
+                <img src="evenmoreimages/GUCCI-FALL_2004_READY_TO_WEAR-32 copy.jpg" alt="Gucci Fall 2004">
+            </div>
+            <div class="data-item">
+                <img src="evenmoreimages/GUCCI-FALL_2019_READY_TO_WEAR-11 copy.jpg" alt="Gucci Fall 2019">
+            </div>
+            <div class="data-item">
+                <img src="evenmoreimages/BALENCIAGA-FALL_2022_READY_TO_WEAR-55 copy.jpg" alt="Balenciaga Fall 2022">
+            </div>
+            <div class="data-item">
+                <img src="evenmoreimages/CHANEL-SPRING_2009_READY_TO_WEAR-64 copy.jpg" alt="Chanel Spring 2009">
+            </div>
+            <div class="data-item">
+                <img src="evenmoreimages/PRADA-SPRING_2019_READY_TO_WEAR-21 copy.jpg" alt="Prada Spring 2019">
+            </div>
+        </section>
+        
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 The Economy and Color Use Project by Miranda Chalbaud Acosta</p>
+    </footer>
+
+    <script src="data.js"></script>
+</body>
+</html>
+

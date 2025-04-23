@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Visualizations</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+  
+  <nav class="navbar">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="data.html">Data</a></li>
+      <li><a href="visualizations.html">Visualizations</a></li>
+      <li><a href="findings.html">Findings</a></li>
+      <li><a href="about.html">About</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    
+    <section class="overview">
+      <div class="overview-container">
+        <p>
+          The following visualizations aim to explore the connection between color usage in luxury fashion and key economic indicators. 
+          Using runway image data  and extracted color palettes, we compare seasonal fashion trends against economic data to see if color, especially <span class="highlight-red">red</span>, responds to changes in financial stability. The visualizations explore whether brands shift their color usage during periods of uncertainty or optimism. These graphics are built from image analysis, economic alignment, and storytelling through data.
+        </p>
+      </div>
+    </section>
+
+ 
+    <section class="visualization-embed">
+      <div class="data-collection-container">
+        <iframe src='https://flo.uri.sh/story/3054082/embed' title='Interactive or visual content' class='flourish-embed-iframe' frameborder='0' scrolling='no' style='width:100%;height:600px;' sandbox='allow-same-origin allow-forms allow-scripts allow-downloads allow-popups allow-popups-to-escape-sandbox allow-top-navigation-by-user-activation'></iframe><div style='width:100%!;margin-top:4px!important;text-align:right!important;'><a class='flourish-credit' href='https://public.flourish.studio/story/3054082/?utm_source=embed&utm_campaign=story/3054082' target='_top' style='text-decoration:none!important'><img alt='Made with Flourish' src='https://public.flourish.studio/resources/made_with_flourish.svg' style='width:105px!important;height:16px!important;border:none!important;margin:0!important;'> </a></div>
+        <p class="caption">Figure 1. Fashion Colors Compared to GDP Growth in the US (2004–2022).</p>
+        <p class="caption note-left">* Use the arrow -> to view additional data including Black and Gray tones. Avoid using autoplay for best experience.</p>
+        <div class="visualization-description">
+            <p>
+                This interactive visualization compares color use in luxury fashion collections with U.S. GDP growth from 2004 to 2022. Each area represents the percentage of runway looks dominated by a specific color across seven major luxury brands, while the magenta line overlays national GDP growth as an indicator of economic health. Key downturns; such as the 2008 financial crisis and the 2020 COVID-19 recession, are marked to explore whether brands shift their color strategies during periods of instability. The first slide filters out neutrals like black and gray to spotlight emotionally-charged hues like red, pink, and yellow, which may serve as psychological tools during economic stress. The second slide reintroduces all colors, providing a full-spectrum view of fashion’s seasonal palettes.
+            </p>
+            <p>
+                The visualization demonstrates that while neutrals consistently dominate, bold colors like red and pink maintain a steady presence across years, with subtle increases following downturns.
+            </p>
+        </div>
+
+        
+        <iframe src='https://flo.uri.sh/visualisation/22812966/embed' title='Interactive or visual content' class='flourish-embed-iframe' frameborder='0' scrolling='no' style='width:100%;height:600px;' sandbox='allow-same-origin allow-forms allow-scripts allow-downloads allow-popups allow-popups-to-escape-sandbox allow-top-navigation-by-user-activation'></iframe><div style='width:100%!;margin-top:4px!important;text-align:right!important;'><a class='flourish-credit' href='https://public.flourish.studio/visualisation/22812966/?utm_source=embed&utm_campaign=visualisation/22812966' target='_top' style='text-decoration:none!important'><img alt='Made with Flourish' src='https://public.flourish.studio/resources/made_with_flourish.svg' style='width:105px!important;height:16px!important;border:none!important;margin:0!important;'> </a></div>
+        <p class="caption">Figure 2. % Red in Fashion vs GDP Growth (2004-2022).</p>
+        <div class="visualization-description">
+            <p>
+                Building on the broader patterns from the stacked area chart, this scatterplot zooms in to examine whether there’s a direct relationship between GDP growth and the use of red in luxury fashion collections. Each point represents a year between 2004 and 2022, with recession years highlighted in orange and stable years in blue. The vertical line at 0% GDP growth marks the divide between economic expansion and contraction. While the hypothesis suggested that brands might increase their use of red during economic downturns, this visualization demonstrates that there is no clear correlation between economic performance and the percentage of red used. Red remains relatively consistent across both prosperous and challenging years. 
+            </p>
+            <p>
+                However, the chart reveals an important nuance: while there is a clear upward trend in the use of red over the years, recession periods show a dip in comparison to both the years preceding and following them. In both cases, after 2009 and 2020, the upward trajectory in red usage resumes as the economy recovers, with noticeable increases between 2009 to 2014 and 2020 to 2022. This pattern doesn’t suggest a direct or immediate correlation between economic decline and color choice, but it does indicate that downturns may play a role in reinforcing a longer-term shift toward greater use of bold, emotionally charged colors like red. Rather than triggering an instant response, recessions could act as subtle catalysts within a broader design strategy.
+
+            </p>
+        <!-- </div>
+        <iframe src="https://public.flourish.studio/visualisation/EXAMPLE_ID_3/embed" frameborder="0" width="100%" height="600px" title="Visualization 3"></iframe>
+        <p class="caption">Figure 3. Stacked area chart of color family usage over seven years.</p>
+      </div> -->
+    </section>
+    <div class="button-container">
+        <a href="findings.html" class="explore-button">Explore Findings</a>
+    </div>
+  </main>
+  
+  <footer>
+    <p>&copy; 2025 The Economy and Color Use Project by Miranda Chalbaud Acosta</p>
+  </footer>
+
+  <script src="data.js"></script>
+</body>
+</html>
