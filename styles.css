@@ -37,6 +37,12 @@ body {
     color: #ff4d4d;  
 }
 
+.navbar a.active {
+    color: #ff4d4d;
+    font-weight: bold;
+    border-bottom: 2px solid #ff4d4d;
+}
+
 .hero-header {
     position: relative;
     text-align: center;
@@ -98,6 +104,17 @@ body {
     font-weight: 700; 
 }
 
+.hypothesis-box {
+    background-color: rgba(179, 0, 0, 0.1); /* subtle red overlay */
+    border-left: 5px solid #b30000;
+    padding: 20px;
+    margin: 30px 0;
+    border-radius: 8px;
+    font-size: 22px;
+    font-family: Georgia, serif;
+    color: #333;
+    text-align: center;
+}
 
 .button-container {
     text-align: center;
@@ -240,7 +257,7 @@ footer {
     text-align: center;
     font-size: 4em;
     font-family: 'Playfair Display', serif;
-    margin: 40px 0;
+    margin: 40px 0 10px;
     color: #333;
     letter-spacing: 2px;
     transition: color 0.3s ease;  
@@ -248,6 +265,13 @@ footer {
 
 .centered-heading:hover {
     color: #b30000;   
+}
+
+.page-title-section {
+    margin-bottom: 10px;
+    padding-top: 30px;
+    padding-bottom: 0;
+    font-size: 24px;
 }
 
 .brand-row {
